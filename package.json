@@ -1,0 +1,46 @@
+{
+  "name": "CHANGEME",
+  "version": "0.0.1",
+  "description": "TEMPLATE",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumodon/CHANGEME"
+  },
+  "keywords": [],
+  "author": "Serafin Wesnidge <serafin@lumodon.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lumodon/CHANGEME/issues"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "homepage": "https://github.com/lumodon/CHANGEME",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-0"
+    ]
+  }
+}
+}
